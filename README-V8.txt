@@ -18,3 +18,5 @@ DEPLOY
    git add .
    git commit -m "Update SAIGON NEEDLE V8.0"
    git push
+
+V8.3 adds the long-form Project System and local MP4 video support.
