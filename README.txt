@@ -1,33 +1,29 @@
-SAIGON NEEDLE V4 FINAL
+SAIGON NEEDLE V5 — STUDIO IDENTITY
 
-Phiên bản này được xây dựng trực tiếp trên nền V3 để giữ nguyên:
-- Hero gốc
-- Typography
-- Animation
-- Gallery và Kintaro project
-- Cấu trúc hiện tại
+NEW IN V5
+- Dragon Crest loading screen
+- SN monogram in navigation
+- New favicon and Apple icon
+- Artists section prepared for a second artist
+- New luxury footer
+- Project completion seal
+- Existing V4 projects and images retained
+- WhatsApp +84 857 272 678 retained
 
-Nội dung mới:
-- Selected Projects
-- Dragon Koi Sleeve project page
-- Process và final gallery
-- Client Story
-- Studio Moments
-- WhatsApp +84 857 272 678
-- Meta / Open Graph cho chia sẻ link
-- Mobile responsive
+UPDATE YOUR LIVE WEBSITE
+1. Extract this ZIP.
+2. Open the Git-connected folder SAIGON-NEEDLE-V3 in VS Code.
+3. Copy everything INSIDE SAIGON-NEEDLE-V5 into SAIGON-NEEDLE-V3.
+4. Choose Replace when Finder asks.
+5. Run:
 
-CÁCH UPDATE WEBSITE
-
-Cách an toàn:
-1. Giải nén SAIGON-NEEDLE-V4-FINAL.
-2. Mở repository saigon-needle hiện tại trong VS Code.
-3. Xóa các file cũ bên trong repository, nhưng KHÔNG xóa thư mục .git.
-4. Copy toàn bộ nội dung BÊN TRONG SAIGON-NEEDLE-V4-FINAL vào repository.
-5. Mở Terminal và chạy:
-
+git status
 git add .
-git commit -m "Update SAIGON NEEDLE V4"
+git commit -m "Update SAIGON NEEDLE V5"
 git push
 
-6. Đợi Vercel 30–90 giây rồi mở saigonneedle.com.
+6. Wait 30–90 seconds and refresh saigonneedle.com.
+
+ADDING THE NEXT ARTIST
+The V5 homepage already contains a prepared artist placeholder.
+Send the artist name, biography, specialties, contact links and photos.

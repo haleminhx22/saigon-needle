@@ -72,3 +72,55 @@
   .project-final-grid{display:block}.project-final-grid figure{margin:0 0 70px}.project-final-grid .p-tall,.project-final-grid .p-small,.project-final-grid .p-mid{width:82%;margin-left:auto}.p-full img{height:auto}
   .project-client-copy{margin-top:45px}
 }
+
+
+/* =========================
+   SAIGON NEEDLE V5 — STUDIO IDENTITY
+   ========================= */
+.brand-v5{width:48px;height:52px;display:flex;align-items:center}
+.brand-v5 img{width:100%;height:100%;object-fit:contain}
+.loader-v5 .loader-v5-inner{display:flex;flex-direction:column;align-items:center}
+.loader-v5 img{width:130px;max-height:150px;object-fit:contain;margin-bottom:22px;opacity:0;transform:scale(.92);animation:v5LogoIn .85s .12s forwards}
+.loader-v5 span{font-size:9px;letter-spacing:.42em;opacity:0;animation:v5TextIn .7s .55s forwards}
+.loader-v5 i{display:block;width:115px;height:1px;background:#555;margin-top:20px;position:relative;overflow:hidden}
+.loader-v5 i:after{content:"";position:absolute;inset:0;background:#f2f0eb;transform:translateX(-100%);animation:v5Line 1.3s .35s forwards}
+@keyframes v5LogoIn{to{opacity:1;transform:scale(1)}}
+@keyframes v5TextIn{to{opacity:1}}
+@keyframes v5Line{to{transform:translateX(0)}}
+
+.hero-actions-v5{display:flex;gap:30px;align-items:center}
+.hero-actions-v5 a{font-size:8px;letter-spacing:.18em;text-transform:uppercase;border-bottom:1px solid;padding-bottom:7px}
+
+.artists-v5-head{margin-bottom:70px}
+.artists-v5-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:stretch}
+.artist-v5-card img{aspect-ratio:4/5;object-fit:cover}
+.artist-v5-meta{display:flex;justify-content:space-between;align-items:flex-end;padding-top:23px}
+.artist-v5-meta h3,.artist-v5-placeholder h3{font-size:clamp(42px,6vw,88px);font-weight:300;letter-spacing:-.055em;line-height:.95;margin-top:12px}
+.artist-v5-meta>span{font-size:8px;color:#777;text-transform:uppercase;letter-spacing:.15em}
+.artist-v5-placeholder{border:1px solid rgba(255,255,255,.14);min-height:600px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:50px}
+.artist-v5-placeholder img{width:185px;opacity:.7;margin-bottom:35px}
+.artist-v5-placeholder>p:last-child{max-width:330px;color:#777;font-size:13px;line-height:1.8;margin-top:24px}
+
+.project-seal-v5{text-align:center;display:flex;flex-direction:column;align-items:center}
+.project-seal-v5 img{width:min(280px,58vw);margin-bottom:35px}
+.project-seal-v5 h2{margin:18px 0 20px}
+.project-seal-v5>span{font-size:8px;color:#777;letter-spacing:.18em;text-transform:uppercase}
+
+.footer-v5{padding:75px 6vw 28px;border-top:1px solid rgba(255,255,255,.14)}
+.footer-v5-brand{display:flex;align-items:center;gap:28px;padding-bottom:55px}
+.footer-v5-brand img{width:82px;height:90px;object-fit:contain}
+.footer-v5-brand strong{font-size:18px;letter-spacing:.22em;font-weight:400;display:block}
+.footer-v5-brand span{font-size:8px;color:#777;letter-spacing:.16em;text-transform:uppercase;display:block;margin-top:12px}
+.footer-v5-info{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;padding:35px 0;border-top:1px solid rgba(255,255,255,.12)}
+.footer-v5-info p{font-size:13px;line-height:1.9;color:#999;margin-top:13px}
+.footer-v5-bottom{display:flex;justify-content:space-between;padding-top:25px;border-top:1px solid rgba(255,255,255,.12);font-size:8px;color:#666;letter-spacing:.16em;text-transform:uppercase}
+
+@media(max-width:800px){
+  .brand-v5{width:39px;height:43px}
+  .hero-actions-v5{flex-direction:column;align-items:flex-start;gap:17px}
+  .artists-v5-grid{grid-template-columns:1fr}
+  .artist-v5-meta{display:block}.artist-v5-meta>span{display:block;margin-top:18px}
+  .artist-v5-placeholder{min-height:470px}
+  .footer-v5-info{grid-template-columns:1fr}
+  .footer-v5-bottom{flex-direction:column;gap:10px}
+}
