@@ -1,29 +1,29 @@
-SAIGON NEEDLE V5 — STUDIO IDENTITY
+SAIGON NEEDLE V5.5 — GUEST ARTIST SYSTEM
 
-NEW IN V5
-- Dragon Crest loading screen
-- SN monogram in navigation
-- New favicon and Apple icon
-- Artists section prepared for a second artist
-- New luxury footer
-- Project completion seal
-- Existing V4 projects and images retained
-- WhatsApp +84 857 272 678 retained
+NEW
+- Guest Artists added to navigation
+- Current Guest Artist feature on homepage
+- HORITUAN profile page
+- Guest Artist archive/listing page
+- Editorial tattoo gallery
+- Instagram @horituan
+- All booking calls-to-action use “Book Appointment”
+- Mobile responsive styling
+- Guest artist image folder prepared for future artists
 
-UPDATE YOUR LIVE WEBSITE
+LIVE PATHS
+- /guest-artists/
+- /guest-artists/horituan.html
+
+DEPLOY
 1. Extract this ZIP.
-2. Open the Git-connected folder SAIGON-NEEDLE-V3 in VS Code.
-3. Copy everything INSIDE SAIGON-NEEDLE-V5 into SAIGON-NEEDLE-V3.
-4. Choose Replace when Finder asks.
-5. Run:
+2. Copy everything inside SAIGON-NEEDLE-V5.5.
+3. Paste into your Git-connected website folder and choose Replace.
+4. In VS Code Terminal run:
 
 git status
 git add .
-git commit -m "Update SAIGON NEEDLE V5"
+git commit -m "Update SAIGON NEEDLE V5.5"
 git push
 
-6. Wait 30–90 seconds and refresh saigonneedle.com.
-
-ADDING THE NEXT ARTIST
-The V5 homepage already contains a prepared artist placeholder.
-Send the artist name, biography, specialties, contact links and photos.
+5. Wait for Vercel, then hard-refresh saigonneedle.com.
