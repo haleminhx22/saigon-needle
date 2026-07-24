@@ -1,28 +1,26 @@
-SAIGON NEEDLE V6.1 — ORIENTAL.ZYN + ART ARCHIVE
+SAIGON NEEDLE V7 — STABLE BILINGUAL ARCHIVE
 
-ADDED
-- Oriental.Zyn resident artist card on EN and VI homepages
-- Bilingual Oriental.Zyn profile page
-- 10 years experience / Traditional Japanese Tattoo
-- Backpieces, process images and complete sleeve collection
-- Bilingual Art Archive
-- HALEMINHX collection
-- HORITUAN collection
-- Optimized image sizes for web and mobile
-- SEO canonical and hreflang tags for new pages
-
-NEW PATHS
-- /en/artists/oriental-zyn.html
-- /vi/artists/oriental-zyn.html
-- /en/art-archive/
-- /vi/art-archive/
+INCLUDED
+- English and Vietnamese homepages
+- HALEMINHX, Oriental.Zyn and HORITUAN artist system
+- Oriental.Zyn page with all 13 supplied photographs
+- Art Archive with all 12 supplied artwork images
+- Journal in English and Vietnamese
+- Root language routing and saved language preference
+- sitemap.xml, robots.txt, canonical and hreflang tags
+- Responsive mobile layout
+- Internal link and image-path validation completed before packaging
 
 DEPLOY
-1. Extract SAIGON-NEEDLE-V6.1.zip.
-2. Replace the contents of your Git-connected website folder with everything inside.
-3. Run:
+1. Extract SAIGON-NEEDLE-V7.zip.
+2. Open the extracted folder and copy EVERYTHING INSIDE it.
+3. Paste into the Git-connected website folder SAIGON-NEEDLE-V3 and choose Replace All.
+4. In VS Code Terminal run:
+
    git status
    git add .
-   git commit -m "Update SAIGON NEEDLE V6.1 Zyn and Art Archive"
+   git commit -m "Update SAIGON NEEDLE V7"
    git push
-4. Wait for Vercel and hard-refresh saigonneedle.com.
+
+5. Wait until the newest Vercel deployment is Ready.
+6. Open https://saigonneedle.com in a private window.
